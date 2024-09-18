@@ -38,8 +38,6 @@ print('Result Before Training')
 
 print(nlp("The stock market is bullish today."))
 
-print("\n\n\n\n")
-
 # print('Prepare Pipeline After Training')
 # trainer.save_model("./fine_tuned_model")
 # fine_tuned_nlp = pipeline("sentiment-analysis", model="./fine_tuned_model", tokenizer=tokenizer)
