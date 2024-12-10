@@ -42,5 +42,5 @@ print(nlp("The stock market is bullish today."))
 # trainer.save_model("./fine_tuned_model")
 # fine_tuned_nlp = pipeline("sentiment-analysis", model="./fine_tuned_model", tokenizer=tokenizer)
 
-# print('Result After Training')
+# print('Result After Training !')
 # print(fine_tuned_nlp("The stock market is bullish today."))
